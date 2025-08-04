@@ -1,13 +1,12 @@
 ---
 
-````
+````markdown
 ## 🔎 Subtakover
 
 **Subtakover** is a powerful subdomain takeover detection tool built for bug bounty hunters and security researchers. It automates subdomain enumeration, filters 404 responses, and matches known fingerprints of third-party services that are commonly vulnerable to takeovers.
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
----
 
 ---
 
@@ -34,8 +33,7 @@ go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 pip install -r requirements.txt
 ````
 
-
-Required Python modules:
+Or manually install the required Python modules:
 
 ```bash
 pip install ipwhois dnspython python-whois requests
@@ -45,19 +43,19 @@ pip install ipwhois dnspython python-whois requests
 
 ## ⚙️ Usage
 
-### Full Domain Scan
+### 🔸 Full Domain Scan
 
 ```bash
 python3 Subtakover.py -d example.com
 ```
 
-### Scan Single Subdomain
+### 🔸 Scan Single Subdomain
 
 ```bash
 python3 Subtakover.py -s blog.example.com
 ```
 
-### Scan Subdomain List (with Threads)
+### 🔸 Scan Subdomain List (with Threads)
 
 ```bash
 python3 Subtakover.py -l subdomains.txt --threads 15
@@ -97,7 +95,7 @@ This tool is created for **educational and authorized testing** purposes only.
 ## 🤝 Contributing
 
 Pull requests are welcome.
-For major changes, open an issue first to discuss what you’d like to change or improve.
+For major changes, open an issue first to discuss what you'd like to change or improve.
 
 ---
 
@@ -106,4 +104,10 @@ For major changes, open an issue first to discuss what you’d like to change or
 **iamzeropoison**
 GitHub: [@iamzeropoison](https://github.com/iamzeropoison)
 
-````
+```
+
+---
+
+✅Enjoy This Tool
+```
+
