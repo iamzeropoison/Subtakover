@@ -35,7 +35,7 @@ Make sure you have the following tools installed:
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 pip install -r requirements.txt
-
+```
 
 ## Required Python modules:
 
@@ -43,16 +43,22 @@ pip install -r requirements.txt
 pip install ipwhois dnspython python-whois requests
 
 ## Usage
+
 Full Domain Scan
 python3 Subtakover.py -d example.com
+
 
 ## Scan Single Subdomain
 
 python3 Subtakover.py -s blog.example.com
 
+
+
 ## Scan Subdomain List (with Threads)
 
 python3 Subtakover.py -l subdomains.txt --threads 15
+
+
 
 ## Output Files
 
@@ -62,8 +68,11 @@ takeover_report.txt: Final report of possible takeovers
 
 
 ##  Disclaimer
+
 This tool is created for educational and authorized testing purposes only.
 Do not use it on targets you do not own or have permission to test.
 
+
+
 ## Contributing
-Pull requests are welcome. For major changes, open an issue first to discuss what you'd like to change.
+ Pull requests are welcome. For major changes, open an issue first to discuss what you'd like to change.
