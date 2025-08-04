@@ -23,6 +23,7 @@
 ## 🛠️ Installation
 
 Make sure you have the following tools and dependencies installed:
+````
 
 ```bash
 # Install required Go tools
