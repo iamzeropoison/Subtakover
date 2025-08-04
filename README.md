@@ -72,6 +72,3 @@ Pull requests are welcome!
 For major changes, please open an issue first to discuss your ideas and proposed improvements.
 
 ---
-
-Let me know if you'd like to add GitHub badges, screenshots, or contact info at the bottom.
-
