@@ -1,6 +1,6 @@
 ---
 
-````markdown
+````
 # 🔎 Subtakover
 
 **Subtakover** is a powerful subdomain takeover detection tool built for bug bounty hunters and security researchers. It automates subdomain enumeration, filters 404 responses, and matches known fingerprints of third-party services that are commonly vulnerable to takeovers.
