@@ -1,35 +1,38 @@
-```
+---
 
-## 🔎 Subtakover
+````markdown
+# 🔎 Subtakover
 
-**Subtakover** is a powerful subdomain takeover detection tool built for bug bounty hunters and security researchers. It automates subdomain enumeration, filters 404 responses, and matches known fingerprints of third-party services that are prone to takeover vulnerabilities.
+**Subtakover** is a powerful subdomain takeover detection tool built for bug bounty hunters and security researchers. It automates subdomain enumeration, filters 404 responses, and matches known fingerprints of third-party services that are commonly vulnerable to takeovers.
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
----
-
 
 ---
 
 ## ✨ Features
 
 - 🔍 Fast subdomain enumeration using [subfinder](https://github.com/projectdiscovery/subfinder)
-- 🚫 Filters out subdomains with HTTP `404` status
-- 🔎 Fingerprint detection for popular vulnerable services (GitHub, AWS, Bitbucket, etc.)
-- 🧵 Multi-threaded scanning for large wordlists
-- 📝 Outputs formatted reports with status, CNAME, ASN, and Registrar info
+- 🚫 Filters out subdomains with HTTP `404` responses
+- 🔎 Detects fingerprints of vulnerable third-party services (e.g., GitHub, AWS, Bitbucket, etc.)
+- 🧵 Supports multi-threaded scanning for large subdomain lists
+- 📝 Generates detailed reports with CNAME, service, status, ASN, and registrar information
 
 ---
 
 ## 🛠️ Installation
 
-Make sure you have the following tools installed:
+Make sure you have the following tools and dependencies installed:
 
 ```bash
+# Install required Go tools
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+
+# Install Python dependencies
 pip install -r requirements.txt
 ````
+
 
 Required Python modules:
 
